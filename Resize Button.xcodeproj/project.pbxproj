@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2FEF835159E2DD700DB32AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FEF834159E2DD700DB32AE /* UIKit.framework */; };
+		A2FEF837159E2DD700DB32AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FEF836159E2DD700DB32AE /* Foundation.framework */; };
+		A2FEF839159E2DD700DB32AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FEF838159E2DD700DB32AE /* CoreGraphics.framework */; };
+		A2FEF83F159E2DD700DB32AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2FEF83D159E2DD700DB32AE /* InfoPlist.strings */; };
+		A2FEF841159E2DD700DB32AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FEF840159E2DD700DB32AE /* main.m */; };
+		A2FEF845159E2DD700DB32AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FEF844159E2DD700DB32AE /* AppDelegate.m */; };
+		A2FEF848159E2DD700DB32AE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FEF846159E2DD700DB32AE /* MainStoryboard_iPhone.storyboard */; };
+		A2FEF84B159E2DD700DB32AE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FEF849159E2DD700DB32AE /* MainStoryboard_iPad.storyboard */; };
+		A2FEF84E159E2DD700DB32AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FEF84D159E2DD700DB32AE /* ViewController.m */; };
+		A2FEF856159E2DD700DB32AE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FEF855159E2DD700DB32AE /* SenTestingKit.framework */; };
+		A2FEF857159E2DD700DB32AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FEF834159E2DD700DB32AE /* UIKit.framework */; };
+		A2FEF858159E2DD700DB32AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FEF836159E2DD700DB32AE /* Foundation.framework */; };
+		A2FEF860159E2DD700DB32AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2FEF85E159E2DD700DB32AE /* InfoPlist.strings */; };
+		A2FEF863159E2DD700DB32AE /* Resize_ButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FEF862159E2DD700DB32AE /* Resize_ButtonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2FEF859159E2DD700DB32AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2FEF827159E2DD700DB32AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2FEF82F159E2DD700DB32AE;
+			remoteInfo = "Resize Button";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2FEF830159E2DD700DB32AE /* Resize Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resize Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FEF834159E2DD700DB32AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2FEF836159E2DD700DB32AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2FEF838159E2DD700DB32AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2FEF83C159E2DD700DB32AE /* Resize Button-Info.plist */ = {isa = PBXFileReference; path = "Resize Button-Info.plist"; sourceTree = "<group>"; };
+		A2FEF83E159E2DD700DB32AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2FEF840159E2DD700DB32AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2FEF842159E2DD700DB32AE /* Resize Button-Prefix.pch */ = {isa = PBXFileReference; path = "Resize Button-Prefix.pch"; sourceTree = "<group>"; };
+		A2FEF843159E2DD700DB32AE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2FEF844159E2DD700DB32AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2FEF847159E2DD700DB32AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A2FEF84A159E2DD700DB32AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A2FEF84C159E2DD700DB32AE /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A2FEF84D159E2DD700DB32AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2FEF854159E2DD700DB32AE /* Resize ButtonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Resize ButtonTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FEF855159E2DD700DB32AE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A2FEF85D159E2DD700DB32AE /* Resize ButtonTests-Info.plist */ = {isa = PBXFileReference; path = "Resize ButtonTests-Info.plist"; sourceTree = "<group>"; };
+		A2FEF85F159E2DD700DB32AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2FEF861159E2DD700DB32AE /* Resize_ButtonTests.h */ = {isa = PBXFileReference; path = Resize_ButtonTests.h; sourceTree = "<group>"; };
+		A2FEF862159E2DD700DB32AE /* Resize_ButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Resize_ButtonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2FEF82D159E2DD700DB32AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FEF835159E2DD700DB32AE /* UIKit.framework in Frameworks */,
+				A2FEF837159E2DD700DB32AE /* Foundation.framework in Frameworks */,
+				A2FEF839159E2DD700DB32AE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FEF850159E2DD700DB32AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FEF856159E2DD700DB32AE /* SenTestingKit.framework in Frameworks */,
+				A2FEF857159E2DD700DB32AE /* UIKit.framework in Frameworks */,
+				A2FEF858159E2DD700DB32AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2FEF825159E2DD700DB32AE = {
+			isa = PBXGroup;
+			children = (
+				A2FEF83A159E2DD700DB32AE /* Resize Button */,
+				A2FEF85B159E2DD700DB32AE /* Resize ButtonTests */,
+				A2FEF833159E2DD700DB32AE /* Frameworks */,
+				A2FEF831159E2DD700DB32AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2FEF831159E2DD700DB32AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2FEF830159E2DD700DB32AE /* Resize Button.app */,
+				A2FEF854159E2DD700DB32AE /* Resize ButtonTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2FEF833159E2DD700DB32AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2FEF834159E2DD700DB32AE /* UIKit.framework */,
+				A2FEF836159E2DD700DB32AE /* Foundation.framework */,
+				A2FEF838159E2DD700DB32AE /* CoreGraphics.framework */,
+				A2FEF855159E2DD700DB32AE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2FEF83A159E2DD700DB32AE /* Resize Button */ = {
+			isa = PBXGroup;
+			children = (
+				A2FEF843159E2DD700DB32AE /* AppDelegate.h */,
+				A2FEF844159E2DD700DB32AE /* AppDelegate.m */,
+				A2FEF846159E2DD700DB32AE /* MainStoryboard_iPhone.storyboard */,
+				A2FEF849159E2DD700DB32AE /* MainStoryboard_iPad.storyboard */,
+				A2FEF84C159E2DD700DB32AE /* ViewController.h */,
+				A2FEF84D159E2DD700DB32AE /* ViewController.m */,
+				A2FEF83B159E2DD700DB32AE /* Supporting Files */,
+			);
+			path = "Resize Button";
+			sourceTree = "<group>";
+		};
+		A2FEF83B159E2DD700DB32AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2FEF83C159E2DD700DB32AE /* Resize Button-Info.plist */,
+				A2FEF83D159E2DD700DB32AE /* InfoPlist.strings */,
+				A2FEF840159E2DD700DB32AE /* main.m */,
+				A2FEF842159E2DD700DB32AE /* Resize Button-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2FEF85B159E2DD700DB32AE /* Resize ButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2FEF861159E2DD700DB32AE /* Resize_ButtonTests.h */,
+				A2FEF862159E2DD700DB32AE /* Resize_ButtonTests.m */,
+				A2FEF85C159E2DD700DB32AE /* Supporting Files */,
+			);
+			path = "Resize ButtonTests";
+			sourceTree = "<group>";
+		};
+		A2FEF85C159E2DD700DB32AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2FEF85D159E2DD700DB32AE /* Resize ButtonTests-Info.plist */,
+				A2FEF85E159E2DD700DB32AE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2FEF82F159E2DD700DB32AE /* Resize Button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FEF866159E2DD700DB32AE /* Build configuration list for PBXNativeTarget "Resize Button" */;
+			buildPhases = (
+				A2FEF82C159E2DD700DB32AE /* Sources */,
+				A2FEF82D159E2DD700DB32AE /* Frameworks */,
+				A2FEF82E159E2DD700DB32AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Resize Button";
+			productName = "Resize Button";
+			productReference = A2FEF830159E2DD700DB32AE /* Resize Button.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2FEF853159E2DD700DB32AE /* Resize ButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FEF869159E2DD700DB32AE /* Build configuration list for PBXNativeTarget "Resize ButtonTests" */;
+			buildPhases = (
+				A2FEF84F159E2DD700DB32AE /* Sources */,
+				A2FEF850159E2DD700DB32AE /* Frameworks */,
+				A2FEF851159E2DD700DB32AE /* Resources */,
+				A2FEF852159E2DD700DB32AE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2FEF85A159E2DD700DB32AE /* PBXTargetDependency */,
+			);
+			name = "Resize ButtonTests";
+			productName = "Resize ButtonTests";
+			productReference = A2FEF854159E2DD700DB32AE /* Resize ButtonTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2FEF827159E2DD700DB32AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A2FEF82A159E2DD700DB32AE /* Build configuration list for PBXProject "Resize Button" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2FEF825159E2DD700DB32AE;
+			productRefGroup = A2FEF831159E2DD700DB32AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2FEF82F159E2DD700DB32AE /* Resize Button */,
+				A2FEF853159E2DD700DB32AE /* Resize ButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2FEF82E159E2DD700DB32AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FEF83F159E2DD700DB32AE /* InfoPlist.strings in Resources */,
+				A2FEF848159E2DD700DB32AE /* MainStoryboard_iPhone.storyboard in Resources */,
+				A2FEF84B159E2DD700DB32AE /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FEF851159E2DD700DB32AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FEF860159E2DD700DB32AE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2FEF852159E2DD700DB32AE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2FEF82C159E2DD700DB32AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FEF841159E2DD700DB32AE /* main.m in Sources */,
+				A2FEF845159E2DD700DB32AE /* AppDelegate.m in Sources */,
+				A2FEF84E159E2DD700DB32AE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FEF84F159E2DD700DB32AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FEF863159E2DD700DB32AE /* Resize_ButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2FEF85A159E2DD700DB32AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2FEF82F159E2DD700DB32AE /* Resize Button */;
+			targetProxy = A2FEF859159E2DD700DB32AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2FEF83D159E2DD700DB32AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2FEF83E159E2DD700DB32AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2FEF846159E2DD700DB32AE /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2FEF847159E2DD700DB32AE /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A2FEF849159E2DD700DB32AE /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2FEF84A159E2DD700DB32AE /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A2FEF85E159E2DD700DB32AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2FEF85F159E2DD700DB32AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2FEF864159E2DD700DB32AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2FEF865159E2DD700DB32AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2FEF867159E2DD700DB32AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resize Button/Resize Button-Prefix.pch";
+				INFOPLIST_FILE = "Resize Button/Resize Button-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2FEF868159E2DD700DB32AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resize Button/Resize Button-Prefix.pch";
+				INFOPLIST_FILE = "Resize Button/Resize Button-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2FEF86A159E2DD700DB32AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Resize Button.app/Resize Button";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resize Button/Resize Button-Prefix.pch";
+				INFOPLIST_FILE = "Resize ButtonTests/Resize ButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A2FEF86B159E2DD700DB32AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Resize Button.app/Resize Button";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resize Button/Resize Button-Prefix.pch";
+				INFOPLIST_FILE = "Resize ButtonTests/Resize ButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2FEF82A159E2DD700DB32AE /* Build configuration list for PBXProject "Resize Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FEF864159E2DD700DB32AE /* Debug */,
+				A2FEF865159E2DD700DB32AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FEF866159E2DD700DB32AE /* Build configuration list for PBXNativeTarget "Resize Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FEF867159E2DD700DB32AE /* Debug */,
+				A2FEF868159E2DD700DB32AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2FEF869159E2DD700DB32AE /* Build configuration list for PBXNativeTarget "Resize ButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FEF86A159E2DD700DB32AE /* Debug */,
+				A2FEF86B159E2DD700DB32AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2FEF827159E2DD700DB32AE /* Project object */;
+}
