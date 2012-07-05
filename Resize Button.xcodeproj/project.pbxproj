@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A261EAE715A09DE700FBE3A2 /* Homer-Simpson.gif in Resources */ = {isa = PBXBuildFile; fileRef = A261EAE515A09DE700FBE3A2 /* Homer-Simpson.gif */; };
+		A261EAE815A09DE700FBE3A2 /* homer.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A261EAE615A09DE700FBE3A2 /* homer.jpeg */; };
 		A2FEF835159E2DD700DB32AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FEF834159E2DD700DB32AE /* UIKit.framework */; };
 		A2FEF837159E2DD700DB32AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FEF836159E2DD700DB32AE /* Foundation.framework */; };
 		A2FEF839159E2DD700DB32AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FEF838159E2DD700DB32AE /* CoreGraphics.framework */; };
@@ -34,25 +36,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A261EAE515A09DE700FBE3A2 /* Homer-Simpson.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Homer-Simpson.gif"; sourceTree = "<group>"; };
+		A261EAE615A09DE700FBE3A2 /* homer.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homer.jpeg; sourceTree = "<group>"; };
 		A2FEF830159E2DD700DB32AE /* Resize Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resize Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FEF834159E2DD700DB32AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A2FEF836159E2DD700DB32AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A2FEF838159E2DD700DB32AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A2FEF83C159E2DD700DB32AE /* Resize Button-Info.plist */ = {isa = PBXFileReference; path = "Resize Button-Info.plist"; sourceTree = "<group>"; };
+		A2FEF83C159E2DD700DB32AE /* Resize Button-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Resize Button-Info.plist"; sourceTree = "<group>"; };
 		A2FEF83E159E2DD700DB32AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2FEF840159E2DD700DB32AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A2FEF842159E2DD700DB32AE /* Resize Button-Prefix.pch */ = {isa = PBXFileReference; path = "Resize Button-Prefix.pch"; sourceTree = "<group>"; };
-		A2FEF843159E2DD700DB32AE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2FEF842159E2DD700DB32AE /* Resize Button-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Resize Button-Prefix.pch"; sourceTree = "<group>"; };
+		A2FEF843159E2DD700DB32AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A2FEF844159E2DD700DB32AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A2FEF847159E2DD700DB32AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		A2FEF84A159E2DD700DB32AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		A2FEF84C159E2DD700DB32AE /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A2FEF84C159E2DD700DB32AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A2FEF84D159E2DD700DB32AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A2FEF854159E2DD700DB32AE /* Resize ButtonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Resize ButtonTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FEF855159E2DD700DB32AE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A2FEF85D159E2DD700DB32AE /* Resize ButtonTests-Info.plist */ = {isa = PBXFileReference; path = "Resize ButtonTests-Info.plist"; sourceTree = "<group>"; };
+		A2FEF85D159E2DD700DB32AE /* Resize ButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Resize ButtonTests-Info.plist"; sourceTree = "<group>"; };
 		A2FEF85F159E2DD700DB32AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A2FEF861159E2DD700DB32AE /* Resize_ButtonTests.h */ = {isa = PBXFileReference; path = Resize_ButtonTests.h; sourceTree = "<group>"; };
+		A2FEF861159E2DD700DB32AE /* Resize_ButtonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Resize_ButtonTests.h; sourceTree = "<group>"; };
 		A2FEF862159E2DD700DB32AE /* Resize_ButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Resize_ButtonTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +117,8 @@
 		A2FEF83A159E2DD700DB32AE /* Resize Button */ = {
 			isa = PBXGroup;
 			children = (
+				A261EAE515A09DE700FBE3A2 /* Homer-Simpson.gif */,
+				A261EAE615A09DE700FBE3A2 /* homer.jpeg */,
 				A2FEF843159E2DD700DB32AE /* AppDelegate.h */,
 				A2FEF844159E2DD700DB32AE /* AppDelegate.m */,
 				A2FEF846159E2DD700DB32AE /* MainStoryboard_iPhone.storyboard */,
@@ -227,6 +233,8 @@
 				A2FEF83F159E2DD700DB32AE /* InfoPlist.strings in Resources */,
 				A2FEF848159E2DD700DB32AE /* MainStoryboard_iPhone.storyboard in Resources */,
 				A2FEF84B159E2DD700DB32AE /* MainStoryboard_iPad.storyboard in Resources */,
+				A261EAE715A09DE700FBE3A2 /* Homer-Simpson.gif in Resources */,
+				A261EAE815A09DE700FBE3A2 /* homer.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +451,7 @@
 				A2FEF868159E2DD700DB32AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2FEF869159E2DD700DB32AE /* Build configuration list for PBXNativeTarget "Resize ButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +460,7 @@
 				A2FEF86B159E2DD700DB32AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    int waterCnt;
+}
+
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+- (IBAction)changeimage:(id)sender;
 
 @end
